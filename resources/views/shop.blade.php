@@ -32,8 +32,8 @@
                 @php
                     $page = request()->query('page');
                 @endphp
-                    <a @if($page === "1") class="active" @endif href="http://127.0.0.1:8000/shop?category=handy&amp;page=1">1</a>
-                    <a @if($page === "2") class="active" @endif href="http://127.0.0.1:8000/shop?category=handy&amp;page=2">2</a>
+                    <a @if($page === "1") class="active" @endif href="http://www.4handyshop.com/shop?category=handy&amp;page=1">1</a>
+                    <a @if($page === "2") class="active" @endif href="http://www.4handyshop.com/shop?category=handy&amp;page=2">2</a>
                     
                				
                 </div>
@@ -82,15 +82,9 @@
 </div>
 
                 
-<section class="footer-shop">
-@include('layouts.footer')
-</section>
+
 
 </section>
 
 @stop
-<section>
-
-</section>
-
 

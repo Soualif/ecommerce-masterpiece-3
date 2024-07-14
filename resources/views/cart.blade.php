@@ -154,10 +154,7 @@
             @endif
         </div>
     </div>
-    <section class="footer-shop">
-@include('layouts.footer')
-
-</section>
+    
 <!--================End Cart Area =================-->
 
 

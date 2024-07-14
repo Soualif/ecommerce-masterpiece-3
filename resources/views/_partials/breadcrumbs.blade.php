@@ -7,7 +7,7 @@
             <div class="col-first">
                 @foreach($breadcrumbs as $breadcrumb)
                     @if ($breadcrumb->url && !$loop->last)
-                    <a href="{{ $breadcrumb->url }}">{{ $breadcrumb->title }}</a><i class="fas fa-arrow-right mx-2"></i>
+                    <a href="{{ $breadcrumb->url }}">{{ $breadcrumb->title }}</a> <i class="bi bi-arrow-right"></i>
                     @else
                     <a class="active"><h1>{{ $breadcrumb->title }}</h1></a>
                     @endif

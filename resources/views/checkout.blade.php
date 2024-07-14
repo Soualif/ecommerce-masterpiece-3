@@ -22,28 +22,28 @@
                     <form class="row contact_form" action="{{ route('checkout.store') }}" method="POST" id="payment-form">
                         {{ csrf_field() }}
                         <div class="col-md-6 form-group p_star">
-                            <input type="text" class="form-control" id="firstname" name="firstname">
-                            <span class="placeholder" data-placeholder="First name"></span>
+                            <input type="text" class="form-control" id="firstname" name="firstname" placeholder="First Name">
+                           <!--  <span class="placeholder" data-placeholder="First name"></span> -->
                         </div>
                         <div class="col-md-6 form-group p_star">
-                            <input type="text" class="form-control" id="lastname" name="name">
-                            <span class="placeholder" data-placeholder="Last name"></span>
+                            <input type="text" class="form-control" id="lastname" name="name" placeholder="Last name">
+                            <!-- <span class="placeholder" data-placeholder="Last name"></span> -->
                         </div>
                         <div class="col-md-6 form-group p_star">
-                            <input type="text" class="form-control" id="number" name="phone">
-                            <span class="placeholder" data-placeholder="Phone number"></span>
+                            <input type="text" class="form-control" id="number" name="phone" placeholder="Phone number">
+                          <!--   <span class="placeholder" data-placeholder="Phone number"></span> -->
                         </div>
                         <div class="col-md-6 form-group p_star">
-                            <input type="text" class="form-control" id="email" name="email">
-                            <span class="placeholder" data-placeholder="Email Address"></span>
+                            <input type="text" class="form-control" id="email" name="email" placeholder="Email Address">
+                            <!-- <span class="placeholder" data-placeholder="Email Address"></span> -->
                         </div>
                         <div class="col-md-12 form-group p_star">
-                            <input type="text" class="form-control" id="add2" name="address">
-                            <span class="placeholder" data-placeholder="Address line 02"></span>
+                            <input type="text" class="form-control" id="add2" name="address" placeholder="Address line 02">
+                            <!-- <span class="placeholder" data-placeholder="Address line 02"></span> -->
                         </div>
                         <div class="col-md-12 form-group p_star">
-                            <input type="text" class="form-control" id="city" name="city">
-                            <span class="placeholder" data-placeholder="Town/City"></span>
+                            <input type="text" class="form-control" id="city" name="city" placeholder="Town/City">
+                            <!-- <span class="placeholder" data-placeholder="Town/City"></span> -->
                         </div>
                         <div class="col-md-12 form-group">
                             <input type="text" class="form-control" id="zip" name="postalcode" placeholder="Postcode/ZIP">

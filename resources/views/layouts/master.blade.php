@@ -10,8 +10,7 @@
 <head>
 	<!-- Mobile Specific Meta -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<!-- Favicon-->
-	<link rel="shortcut icon" href="img/fav.png">
+	<!-- Favicon--> 
 	<!-- Author Meta -->
 	<meta name="author" content="CodePixar">
 	<!-- Meta Description -->
@@ -25,6 +24,7 @@
 	<!--
 		CSS
 		============================================= -->
+	
 	<link rel="stylesheet" href="{{ asset('css/style.css') }}">
 	<link rel="stylesheet" href="{{ asset('css/linearicons.css') }}">
 	<link rel="stylesheet" href="{{ asset('css/font-awesome.min.css') }}">
@@ -37,6 +37,7 @@
 	<link rel="stylesheet" href="{{ asset('css/ion.rangeSlider.skinFlat.css') }}" />
 	<link rel="stylesheet" href="{{ asset('css/magnific-popup.css') }}">
 	<link rel="stylesheet" href="{{ asset('css/main.css') }}">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 	@yield('includes')
 	
 </head>
@@ -44,12 +45,11 @@
          <div id="app">
 			@include('layouts.header')
             @yield('content')
-		
 			@yield('js')
          </div>
+		 @include('layouts.footer')
 	
-	<!--FontAwsome-->
-    <script src="https://kit.fontawesome.com/7f81095739.js" crossorigin="anonymous"></script>
+	
 
 	<!--Template files-->
     <script src="{{ asset('js/vendor/jquery-2.2.4.min.js') }}"></script>

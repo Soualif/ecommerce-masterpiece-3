@@ -56,7 +56,4 @@
 </section>
 <!--================End Login Box Area =================-->
 
-<section class="footer-shop">
-@include('layouts.footer')
-</section>
 @endsection

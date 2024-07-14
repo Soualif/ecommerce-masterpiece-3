@@ -58,11 +58,13 @@ Route::group(['prefix' => 'admin'], function () {
 Auth::routes();
 
 
-Route::get('/logout',  function() {
+Route::get('/custom-logout',  function() {
     auth()->logout();
     Session()->flush();
 
     
 
+
+
     return Redirect::to('/');
-})->name('logout');
+})->name('custom-logout');

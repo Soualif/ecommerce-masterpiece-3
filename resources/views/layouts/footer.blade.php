@@ -1,7 +1,7 @@
 <!-- start footer Area -->
 <footer class="footer-area section_gap">
     <div class="container">
-        <div class="row" id="div-about">
+        <div class="row">
             <div class="col-lg-3  col-md-6 col-sm-6">
                 <div class="single-footer-widget">
                     <h6>About Us</h6>
@@ -23,7 +23,7 @@
 							 method="get" class="form-inline">
 
 								<div class="d-flex flex-row">
-                                handyshop@4handyshop.com<br>
+                                4handyshop@4handyshop.com<br>
 								Röschibachstrasse 58, 8037 Zurich <br>
                                 +41 (076) 744 99 92<br>
                                 Mon to Fri 9 am to 6 pm	
