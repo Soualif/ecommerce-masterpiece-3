@@ -7,6 +7,8 @@ use App\Models\Product;
 use diglactic\Breadcrumbs\Facades\Breadcrumbs;
 use Illuminate\Http\Request;
 
+
+
 class HomeController extends Controller
 {
     /**
