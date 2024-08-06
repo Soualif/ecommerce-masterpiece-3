@@ -51,20 +51,17 @@ Route::delete('/coupon', 'App\Http\Controllers\CouponsController@destroy')->name
 //Orders
 Route::get('/orders', 'App\Http\Controllers\HomeController@orders')->name('orders')->middleware('auth');
 
-
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
 Auth::routes();
 
 
-Route::get('/custom-logout',  function() {
+Route::get('/logout',  function() {
     auth()->logout();
     Session()->flush();
-
-    
 
 
 
     return Redirect::to('/');
-})->name('custom-logout');
+})->name('logout');
